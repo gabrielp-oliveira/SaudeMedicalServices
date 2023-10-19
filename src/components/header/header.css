@@ -1,0 +1,212 @@
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+header a:hover {
+  text-decoration: underline;
+}
+.header-nav > ul, .responsive-header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #252F3D;
+    height: 50px;
+}
+.responsive-header-nav {
+}
+
+.nav-headerItem {
+    align-self: center;
+    color: white;
+    list-style: none;
+    font-family: 'Manrope';
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-headerItem svg {
+    align-self: center;
+    margin-right: 5px;
+    font-size: 13px;
+}
+.nav-headerItem span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 180px;
+  margin-bottom: 30px;
+  min-width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.08);
+}
+.subHeader-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 96px;
+    padding: 0px 127px;
+
+}
+.subHeader-logos > div {
+    margin-top: 20px;
+}
+.subHeader-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center;
+    align-items: center;
+    margin-top: -10px;
+    font-family: 'Manrope';
+    height: 76px;
+}
+.subHeader-title > h1 {
+    font-size: 30px;
+    line-height: 30px;
+    color: black;
+    font-weight: 400;
+}
+.subHeader-title > p { 
+    color: #4D5254;
+}
+.logos-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+}
+.logos-left img:first-child {
+    width: 30px;
+    height: 30px;
+}
+.logos-left img:last-child {
+  height: 80px;
+  width: 100px;
+}
+.logos-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+
+}
+.logos-right img {
+    width: 50px;
+    height: 50px;
+}
+
+/* header carrosel */
+
+  .slider {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+    
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    
+    
+    
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    
+    /*
+    scroll-snap-points-x: repeat(300px);
+    scroll-snap-type: mandatory;
+    */
+  }
+  .slides::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+  .slides::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  .slides::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .slides > li {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    border-radius: 10px;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    max-width: 550px;
+  }
+
+  .controlSlider {
+    display: flex;
+    /* justify-content: center; */
+    align-self: center;
+    /* color: white; */
+    /* padding: 0px 5px; */
+}
+
+  .slider > a {
+    display: inline-flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 0 0.5rem 0;
+    position: relative;
+  }
+  .slider > a:active {
+    top: 1px;
+  }
+  .slider > a:focus {
+    background: #000;
+  }
+  .flags {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    justify-content: flex-end;
+  }
+  .flags img {
+    border: 1px solid rgb(0, 0, 0, 1);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 5px 10px;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+  }
+  .flags img:hover {
+    opacity: 0.7;
+  }
+  .selected {
+    opacity: 0.7;
+  }
+  .unselected {
+    filter: brightness(0.85);
+  }
+  /* Don't need button navigation */
+  
+  

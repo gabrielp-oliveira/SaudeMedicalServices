@@ -1,0 +1,28 @@
+footer {
+    padding: 0px 127px;
+    background-color: #252F3D;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+footer a {
+    color: white;
+}
+footer > div:first-child {
+    max-width: 401px;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+footer > div:last-child {
+    min-width: 261px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

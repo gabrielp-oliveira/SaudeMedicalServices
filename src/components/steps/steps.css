@@ -1,0 +1,59 @@
+.stepSelected {
+    background-color: var(--blue);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.ToBestepSelected {
+    border: 2px solid var(--blue);
+    background-color: white;
+    color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.stepOption {
+    /* : min-content; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.stepOption span { 
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--darkGray);
+    margin-left: 5px;
+    font-weight: 600;
+}
+.stepOption svg {
+    height: 20px;
+    width: 20px;
+    color: var(--blue);
+}
+
+.stepSelected ,.stepOption img, .ToBestepSelected {
+    margin-right: 15px;
+    cursor: pointer;
+}
+.stepLists {
+    display: flex;
+    justify-content: space-around;
+    margin: 45px auto 0px auto;
+    max-width: 1245px;
+    min-width: 580px;
+    /* border: 1px solid red; */
+    font-family: 'Manrope';
+    align-self: center;
+
+}

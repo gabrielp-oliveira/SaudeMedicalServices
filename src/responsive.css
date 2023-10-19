@@ -1,0 +1,237 @@
+  
+  
+  @media(width > 550px){
+      .responsive-header-nav {
+        display: none!important;
+      }
+      .header-nav > ul {
+        display: flex!important;
+      }
+      [data-step]:before {
+        content: attr(data-step)!important;
+    }
+
+    }
+    @media(width < 550px){
+        .stepOption img, .stepSelected, .ToBestepSelected {
+            width: 1.7rem!important;
+            height: 1.7rem!important;
+        }
+        .stepOption span {
+            font-size: 12px!important;
+        }
+        .mainContent {
+            margin-top: 0px!important;
+            padding-top: 20px!important;
+        }
+        .responsive-header-nav {
+            display: block;
+        }
+        .header-nav > ul {
+          display: none!important;
+        }
+        .subHeader-logos > div {
+            margin-top: 30px!important;
+        }
+        .subHeader-logos {
+            padding: 0px!important;
+            justify-content: space-around!important;
+          }
+        .logos-right img {
+            height: 20px!important;
+            width: 105px!important;
+        }
+        .logos-left {
+            width: 101px!important;
+        }
+        .logos-left img {
+            height: 16px!important;
+            width: 44px!important;
+        }
+        .subHeader-title {
+            width: 320px!important;
+            height: 68px!important;
+            text-align: center;
+        }
+        .subHeader h1 {
+            font-size: 32px!important;
+        }
+
+
+  }
+  
+
+  @media(width > 730px){
+    [data-step]:before {
+      content: attr(data-step)!important;
+  }
+  .stepOption {
+    flex-direction: row!important;
+}
+
+  }
+  @media(width < 730px){
+    [data-step]:before {
+        content: ''!important;
+    }
+    .stepOption {
+        flex-direction: column!important;
+    }
+  }
+
+  @media(width > 1215px){
+    .review-user {
+        display: block!important;
+    }
+    .specialContent {
+        flex-direction: row!important;
+    }
+  }
+
+  @media(width < 1215px){
+    .review-user {
+        display: none!important;
+    }
+    .specialContent {
+        align-items: center!important;
+        flex-direction: column!important;
+    }
+  }
+  @media(width > 605px){
+    .productImage{
+        display: block!important;
+    }
+  }
+
+  @media(width < 605px){
+    .productImage {
+        display: none!important;
+    }
+    .txt-responsive.light-text {
+        display: block!important;
+    }
+    .productContent h1 {
+        font-size: 24px!important;
+        text-align: center!important;
+    }
+    .brk, .productDetails > div>  .light-text {
+        display: none!important;
+    }
+    .productDetails > div {
+        max-width: 250px;
+        margin-left: 10px;
+    }
+    .light-text {
+        font-size: 14px!important;
+        text-align: center;
+    }
+    .productDetails >img {
+        height: 80px!important;
+        width: 80px!important;
+    }
+    .productContent {
+        width: auto!important;
+    }
+    .save >div:first-child {
+        width: auto!important;
+    }
+    .productDetails-description > div {
+        width: 57px!important;
+    }
+    .productDetails-description > div > del {
+        font-size: 10px!important;
+    }
+    .productDetails-description > div > span {
+        font-size: 14px!important;
+    }
+    .claim-details {
+        flex-direction: column!important;
+        padding: 8px 0px!important;
+        height: 71px!important;
+        justify-content: space-around!important;
+
+    }
+    .claim-details > div:first-child {
+        width: 100%; 
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .paymentsOptions {
+        padding-top: 10px!important;
+        border-top: 1px solid #CFCFCF
+    }
+    .satisfaction-badge > img {
+        height: 48px!important;
+        width: 48px!important;
+    }
+    .satisfaction-badge {
+        margin: 5px 0px!important;
+    }
+
+    .satisfaction-badge  .light-text {
+        font-size: 12px!important;
+    }
+
+
+    .claim-details > div:first-child {
+        padding: 0!important;
+    }
+    .claim-details > div > div p {
+        padding: 0!important;
+        border: none!important;
+    }
+    .claim {
+        height: 51px!important;
+        font-size: 14px!important;
+    }
+    .claim img {
+        height: 12px!important;
+    }
+
+
+  }
+
+  
+
+  @media(width < 890px){
+/* 
+    footer  {
+       flex-direction: column!important;
+       justify-content: space-around!important;
+    }
+    footer > div:first-child {
+        justify-content: space-evenly!important;
+    } */
+    .product-advantages {
+        height: auto!important;
+        margin: 25px 0px!important;
+    }
+    .mainContent {
+        /* padding: 20px!important; */
+    }
+    footer  {
+        font-size: 12px!important;
+        flex-direction: column!important;
+        padding: 0px!important;
+        justify-content: space-around!important;
+        flex-direction: column!important;
+        justify-content: space-around!important;
+     }
+     footer > div:first-child {
+        width: 300px!important;
+        min-width: 200px!important;
+        justify-content: space-evenly!important;
+     }
+     footer > div:last-child {
+        width: 210px!important;
+        min-width: 150px!important;
+     }
+  }
+  @media(width > 890px){
+    footer > div:first-child {
+        width: 450px!important;
+    }
+  }
+
+
+

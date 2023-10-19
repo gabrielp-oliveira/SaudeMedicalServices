@@ -1,0 +1,332 @@
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 40px; */
+    /* margin: 20px auto; */
+}
+
+.specialContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+.txt-responsive {
+    display: none!important;
+}
+.productImage {
+    justify-content: flex-start;
+    margin: 10px;
+}
+.productImage img {
+    max-height: 591px;
+    max-width: 575px;
+    border-radius: 10px;
+}
+
+.productContent {
+    width: 550px;
+    margin: 10px;
+}
+.productContent h1 {
+    font-weight: 400;
+    font-family: Manrope;
+    color: black;
+    text-align: justify;
+    line-height: 45px;
+    font-size: 32px;
+}
+.productContent h1 span{
+    color: var(--blue);
+}
+.productDetails {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.productDetails img {
+    width: 134px;
+    height: 134px;
+    border-radius: 10px;
+}
+.productDetails > div {
+    width: 392px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.productDetails-description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.productDetails-description > h1 {
+    font-size: 20px;
+    font-weight: 400;
+}
+.productDetails-description > div {
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.quantity {
+    color: var(--darkGray);
+    font-size: 16px;
+    font-weight: 300;
+}
+.productDetails-description > div > span { 
+    color: var(--blue);
+    font-size: 22px;
+}
+.productDetails-description > div > del {
+    color: #96969696;
+    font-size: 16px;
+}
+.reviewStarts {
+    margin-top: 10px;
+}
+.reviewStarts img {
+    height: 18px;
+    width: 18px;
+}
+.product-advantages img {
+    height: 22px;
+    width: 22px;
+    margin-right: 10px;
+}
+.product-advantages {
+    margin-top: 20px;
+    height: 100px;
+}
+.product-advantages ul {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+.product-advantages li {
+    list-style: none;
+    display: flex;
+}
+.product-advantages li span {
+    color: var(--darkGray);
+    font-weight: 700;
+}
+.emphasis {
+    color: var(--blue);
+}
+.save {
+    background-color: #EDF3FD;
+    border-radius: 10px;
+}
+.save >div:first-child{
+    width: 441px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    padding: 12px 16px 12px 16px;
+    justify-content: space-around;
+}
+.circle {
+    background-color: var(--blue);
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+    margin-right: 3px;
+}
+.claim a {
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.claim {
+    display: flex;
+    background-color: #59AE43;
+    padding: 16px 64px 16px 64px;
+    border-radius: 50px;
+    gap: 10px;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+    margin-top: 20px;
+}
+.claim img {
+    height: 17px;
+}
+.claim:hover {
+    opacity: 0.8;
+}
+.claim-details {
+    display: flex;
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 8px 16px 8px 16px;
+    border: 1px solid #CFCFCF;
+    height: 33px;
+    justify-content: space-between;
+    align-items: center;
+}
+.claim-details > div {
+    display: flex;
+    padding-right: 10px;
+}
+.claim-details > div > div {
+    display: flex;
+}
+.claim-details > div > div:last-child {
+    padding: none!important;
+}
+
+.claim-details > div > div p {
+    border-right: 1px solid #CFCFCF;
+    color: var(--gray);
+    font-size: 12px;
+    padding-right: 15px;
+
+}
+.lock {
+    margin-right: 5px;
+    height: 12px;
+    width: 12px;
+    display: flex;
+    align-self: center;
+}
+.paymentsOptions {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 20px; */
+}
+.paymentsOptions img {
+    height: 14px;
+    width: 24px;
+}
+.deny {
+    color: #F82C2C;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 500;
+    text-decoration: underline;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.deny p {
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+.deny p:hover {
+    opacity: 0.8;
+}
+.satisfaction-badge {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.satisfaction-badge > img { 
+    height: 88px;
+    width: 88px;
+    margin-right: 10px;
+}
+.satisfaction-badge > p {
+    text-align: start;
+}
+
+.satisfaction-badge > p > span {
+    font-weight: 700;
+}
+
+.review-user >div:first-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 237px;
+}
+.review-user-details {
+    display: flex;
+    width: 176px;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 5px;
+}
+.review-user {
+    margin-top: 20px;
+    padding: 24px;
+    display: block;
+}
+.review-user-details > div:last-child {
+    display: flex;
+    justify-content: space-between;
+}
+.review-stars ul { 
+    display: flex;
+    width: 80px;
+    justify-content: space-around;
+}
+.review-stars li { 
+    list-style: none;
+}
+.review-stars li img {
+    height: 12px;
+    width: 12px;
+}
+.review-stars {
+    display: flex;
+
+}
+.user-pic {
+   width: 48px;
+   height: 48px; 
+}
+.review-user-details span {
+    font-size: 14px;
+    columns: #333333;
+}
+.user-depoiment {
+    height: 72px;
+    width: 527px;
+    font-size: 16px;
+    color: #4D5254;
+    margin-top: 15px;
+}
+
+#checkbox-round {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid var(--gray);
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.light-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #4D5254;
+    line-height: 22px;
+}
+
+#checkbox-round:checked {
+    background-color: var(--blue);
+}
