@@ -51,9 +51,10 @@
     justify-content: space-around;
     margin: 45px auto 0px auto;
     max-width: 1245px;
-    min-width: 580px;
     /* border: 1px solid red; */
     font-family: 'Manrope';
     align-self: center;
-
+}
+.stepLists li {
+    margin: 0px 3px;
 }

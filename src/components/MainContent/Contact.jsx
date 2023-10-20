@@ -1,10 +1,13 @@
-import React, {useCallback} from 'react'
+import React, { useCallback } from 'react'
 import SubHeader from '../header/SubHeader'
 import Map from '../map/map'
 import contact from '../../dataTxt/contact'
 import './contact.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram, faWhatsapp, } from '@fortawesome/free-brands-svg-icons'
+import { faMagnifyingGlassLocation } from '@fortawesome/free-solid-svg-icons'
 
-function Contact({lang}) {
+function Contact({ lang }) {
 
   const MapRender = useCallback(() => {
     return <Map />
@@ -14,57 +17,72 @@ function Contact({lang}) {
       <SubHeader mainText={contact[lang].mainText} subtext={contact[lang].subText} />
       <div className='contact'>
 
-        <ul>
-
-          <li>
-            <span>{contact[lang].domingo}</span>
+        <div >
+          <div className='icons'>
             <span>
-              13:00–18:00</span>
-          </li>
-          <li>
-          <span>{contact[lang]['segunda-feira']}</span>
-            <span>
-              13:00–18:00</span>
-          </li>
-          <li>
-            <span>{contact[lang]['terça-feira']}</span>
-
-            <span>
-              13:00–18:00
+              <FontAwesomeIcon icon={faWhatsapp} />
+              <span>+1 (973)5355-229</span>     
             </span>
-          </li>
-          <li>
-            <span>{contact[lang]['quarta-feira']}</span>
-
             <span>
-              13:00–18:00</span>
-          </li>
-          <li>
-            <span>{contact[lang]['quinta-feira']}</span>
-
+          <FontAwesomeIcon icon={faInstagram} />
+          <span>Follow us in instagram</span>
+            </span>
             <span>
-              13:00–18:00</span>
-          </li>
-          <li>
-            <span>{contact[lang]['sexta-feira']}</span>
+          <FontAwesomeIcon icon={faMagnifyingGlassLocation} />
+              <span>361 Lafayette St, Newark, NJ 07105</span>
+            </span>
+          </div>
+          <ul>
 
-            <span>13:00–18:00</span>
-          </li>
-          <li>
-            <span>{contact[lang]['sabado']}</span>
+            <li>
+              <span>{contact[lang].domingo}</span>
+              <span>
+                13:00–18:00</span>
+            </li>
+            <li>
+              <span>{contact[lang]['segunda-feira']}</span>
+              <span>
+                13:00–18:00</span>
+            </li>
+            <li>
+              <span>{contact[lang]['terça-feira']}</span>
 
-            <span>{contact[lang].Closed}</span>
-          </li>
-        </ul>
+              <span>
+                13:00–18:00
+              </span>
+            </li>
+            <li>
+              <span>{contact[lang]['quarta-feira']}</span>
 
-    <div>
+              <span>
+                13:00–18:00</span>
+            </li>
+            <li>
+              <span>{contact[lang]['quinta-feira']}</span>
 
-      <p>361 Lafayette St, Newark, NJ 07105</p>
-      <span>+1 (973)5355-229</span>
+              <span>
+                13:00–18:00</span>
+            </li>
+            <li>
+              <span>{contact[lang]['sexta-feira']}</span>
 
-        
-        <MapRender />
-    </div>
+              <span>13:00–18:00</span>
+            </li>
+            <li>
+              <span>{contact[lang]['sabado']}</span>
+
+              <span>{contact[lang].Closed}</span>
+            </li>
+          </ul>
+        </div>
+
+
+        <div style={{margin: '10px 0px'}}>
+
+
+
+          <MapRender />
+        </div>
       </div>
     </>
   )

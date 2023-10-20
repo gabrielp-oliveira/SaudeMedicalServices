@@ -3,6 +3,27 @@
     justify-content: center;
     align-items: center;
 }
+.contact > div {
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 280px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.icons > span{
+    display: flex;
+    margin: 5px 0px;
+    justify-content: space-between;
+}
 .contact ul {
     list-style: none;
     align-self: flex-end;

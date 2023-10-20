@@ -42,7 +42,7 @@ header a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 180px;
+  height: 210px;
   margin-bottom: 30px;
   min-width: 100%;
   background-color: rgb(255, 255, 255);
@@ -67,13 +67,15 @@ header a:hover {
     align-items: center;
     margin-top: -10px;
     font-family: 'Manrope';
-    height: 76px;
+    height: 95px;
 }
 .subHeader-title > h1 {
     font-size: 30px;
     line-height: 30px;
     color: black;
     font-weight: 400;
+    text-align: center;
+
 }
 .subHeader-title > p { 
     color: #4D5254;
@@ -98,6 +100,7 @@ header a:hover {
   justify-content: center;
   align-items: center;
   font-size: 10px;
+  text-align: center;
 
 }
 .logos-right img {
