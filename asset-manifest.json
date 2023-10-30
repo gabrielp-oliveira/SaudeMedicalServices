@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/saudeMedicalServises/version1/static/css/main.76e1099b.css",
-    "main.js": "/saudeMedicalServises/version1/static/js/main.ec41cd48.js",
-    "static/js/787.7efd31bd.chunk.js": "/saudeMedicalServises/version1/static/js/787.7efd31bd.chunk.js",
-    "static/media/Rutgers_University.png": "/saudeMedicalServises/version1/static/media/Rutgers_University.bda8f45c3d3059edb64a.png",
-    "static/media/full-logo.jpg": "/saudeMedicalServises/version1/static/media/full-logo.1f354338782f67018520.jpg",
-    "static/media/rutgers.png": "/saudeMedicalServises/version1/static/media/rutgers.d4b840660a05d112fb01.png",
-    "static/media/health.png": "/saudeMedicalServises/version1/static/media/health.64ba7f581140079ebea1.png",
-    "static/media/office.jpg": "/saudeMedicalServises/version1/static/media/office.a08746a03295b1e0f0ab.jpg",
-    "static/media/Flag_of_Spain.svg": "/saudeMedicalServises/version1/static/media/Flag_of_Spain.d0c4a6137c26462ea243ab2d90bd8dd7.svg",
-    "static/media/equipe.jpg": "/saudeMedicalServises/version1/static/media/equipe.df11628e95d5fece3602.jpg",
-    "static/media/sms-logo.png": "/saudeMedicalServises/version1/static/media/sms-logo.4ed71c727480b6bf5da4.png",
-    "static/media/brazil-flag-icon.svg": "/saudeMedicalServises/version1/static/media/brazil-flag-icon.dd2dd21d0015bb8443ba2217a198d7bf.svg",
-    "static/media/united-states-flag-icon.svg": "/saudeMedicalServises/version1/static/media/united-states-flag-icon.6bfa3fc5dead5ace487f6cc7b35e269b.svg",
-    "index.html": "/saudeMedicalServises/version1/index.html",
-    "main.76e1099b.css.map": "/saudeMedicalServises/version1/static/css/main.76e1099b.css.map",
-    "main.ec41cd48.js.map": "/saudeMedicalServises/version1/static/js/main.ec41cd48.js.map",
-    "787.7efd31bd.chunk.js.map": "/saudeMedicalServises/version1/static/js/787.7efd31bd.chunk.js.map"
+    "main.css": "/saudeMedicalServices/static/css/main.76e1099b.css",
+    "main.js": "/saudeMedicalServices/static/js/main.6608db8f.js",
+    "static/js/787.1ea7e87a.chunk.js": "/saudeMedicalServices/static/js/787.1ea7e87a.chunk.js",
+    "static/media/Rutgers_University.png": "/saudeMedicalServices/static/media/Rutgers_University.bda8f45c3d3059edb64a.png",
+    "static/media/full-logo.jpg": "/saudeMedicalServices/static/media/full-logo.1f354338782f67018520.jpg",
+    "static/media/rutgers.png": "/saudeMedicalServices/static/media/rutgers.d4b840660a05d112fb01.png",
+    "static/media/health.png": "/saudeMedicalServices/static/media/health.64ba7f581140079ebea1.png",
+    "static/media/office.jpg": "/saudeMedicalServices/static/media/office.a08746a03295b1e0f0ab.jpg",
+    "static/media/Flag_of_Spain.svg": "/saudeMedicalServices/static/media/Flag_of_Spain.d0c4a6137c26462ea243ab2d90bd8dd7.svg",
+    "static/media/equipe.jpg": "/saudeMedicalServices/static/media/equipe.df11628e95d5fece3602.jpg",
+    "static/media/sms-logo.png": "/saudeMedicalServices/static/media/sms-logo.4ed71c727480b6bf5da4.png",
+    "static/media/brazil-flag-icon.svg": "/saudeMedicalServices/static/media/brazil-flag-icon.dd2dd21d0015bb8443ba2217a198d7bf.svg",
+    "static/media/united-states-flag-icon.svg": "/saudeMedicalServices/static/media/united-states-flag-icon.6bfa3fc5dead5ace487f6cc7b35e269b.svg",
+    "index.html": "/saudeMedicalServices/index.html",
+    "main.76e1099b.css.map": "/saudeMedicalServices/static/css/main.76e1099b.css.map",
+    "main.6608db8f.js.map": "/saudeMedicalServices/static/js/main.6608db8f.js.map",
+    "787.1ea7e87a.chunk.js.map": "/saudeMedicalServices/static/js/787.1ea7e87a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.76e1099b.css",
-    "static/js/main.ec41cd48.js"
+    "static/js/main.6608db8f.js"
   ]
 }
