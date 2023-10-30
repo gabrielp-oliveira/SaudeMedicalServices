@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/saudemedicalservices/static/css/main.76e1099b.css",
-    "main.js": "/saudemedicalservices/static/js/main.b9d876fe.js",
+    "main.js": "/saudemedicalservices/static/js/main.fb303f78.js",
     "static/js/787.01ac483b.chunk.js": "/saudemedicalservices/static/js/787.01ac483b.chunk.js",
     "static/media/Rutgers_University.png": "/saudemedicalservices/static/media/Rutgers_University.bda8f45c3d3059edb64a.png",
     "static/media/full-logo.jpg": "/saudemedicalservices/static/media/full-logo.1f354338782f67018520.jpg",
@@ -15,11 +15,11 @@
     "static/media/united-states-flag-icon.svg": "/saudemedicalservices/static/media/united-states-flag-icon.6bfa3fc5dead5ace487f6cc7b35e269b.svg",
     "index.html": "/saudemedicalservices/index.html",
     "main.76e1099b.css.map": "/saudemedicalservices/static/css/main.76e1099b.css.map",
-    "main.b9d876fe.js.map": "/saudemedicalservices/static/js/main.b9d876fe.js.map",
+    "main.fb303f78.js.map": "/saudemedicalservices/static/js/main.fb303f78.js.map",
     "787.01ac483b.chunk.js.map": "/saudemedicalservices/static/js/787.01ac483b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.76e1099b.css",
-    "static/js/main.b9d876fe.js"
+    "static/js/main.fb303f78.js"
   ]
 }
