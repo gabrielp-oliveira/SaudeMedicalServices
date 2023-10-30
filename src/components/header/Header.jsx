@@ -23,7 +23,7 @@ function Header({setALang, lang}) {
 
   }
   function callFoward() {
-    if (current < 4) {
+    if (current < 3) {
       setcurrent(current + 1)
     }
     ATag.current.click()
@@ -42,7 +42,7 @@ function Header({setALang, lang}) {
         <nav className='slider responsive-header-nav'>
           
         <span className='controlSlider' onClick={() => callBackward()} >
-          <img src={arrowLeft} alt='move left arrow icon'/>
+          <img src={arrowRight} alt='move left arrow icon' style={{transform: 'rotate(180deg)'}}/>
           </span>
         <HeaderResponsive current={current} ATag={ATag} />
         <span className='controlSlider' onClick={() => callFoward()}><img src={arrowRight} alt='move right arrow icon'/></span>
@@ -104,7 +104,7 @@ function HeaderResponsive({ current, ATag }) {
       <Link>get in touch</Link>
     </li> */}
 
-    <a href={`#slide-${current}`} style={{ display: 'none' }} ref={ATag}></a>
+    <a href={`#slide-${current}`} style={{ display: 'none', position: 'absolute', top: '-50px' }} ref={ATag}></a>
 
     </ul>
 )

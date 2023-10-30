@@ -1,5 +1,7 @@
 .aboutTop {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 .aboutTop p {
@@ -13,7 +15,8 @@
     border-radius: 5px;
 }
 .about {
-    width: 900px;
+    max-width: 940px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,14 +24,18 @@
 }
 .about ul {
     /* list-style: none; */
-    margin: 20px 0px;
+    /* margin: 20px 0px; */
     width: 100%;
     margin-left: 25px;
     display: flex;
     flex-direction: column;
     align-content: flex-start;
+    margin-bottom: 25px;
 }
 .aboutLogo {
     width: 380px;
     margin-top: 10px;
+}
+.about ul li {
+    /* list-style: none; */
 }

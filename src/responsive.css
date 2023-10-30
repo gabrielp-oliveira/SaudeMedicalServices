@@ -1,5 +1,13 @@
   
   
+  @media(width < 500px){
+    .aboutTop img {
+        width: 100%!important;
+    }
+    .about ul {
+        margin-left: 0px!important;
+    }
+  }
   @media(width > 550px){
       .responsive-header-nav {
         display: none!important;

@@ -118,12 +118,8 @@ header a:hover {
   
   .slides {
     display: flex;
-    
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    
-    
-    
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
     
@@ -165,7 +161,13 @@ header a:hover {
     /* justify-content: center; */
     align-self: center;
     /* color: white; */
-    /* padding: 0px 5px; */
+    padding: 0px 5px;
+    /* border: 1px solid red; */
+    height: 100%;
+}
+.controlSlider img {
+  height: 20px;
+  align-self: center;
 }
 
   .slider > a {
