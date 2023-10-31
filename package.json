@@ -1,8 +1,8 @@
 {
-  "name": "",
-  "homepage": "https://gabrielp-oliveira.github.io/saudeMedicalServises/version1/",
+  "name": "saudemedicalservices",
+  "homepage": "https://gabrielp-oliveira.github.io/SaudeMedicalServices/",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-brands-svg-icons": "^6.4.2",

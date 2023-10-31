@@ -1,8 +1,14 @@
   
   
-  @media(width < 500px){
+  @media(width < 380px){
+    .aboutLogo {
+        width: 100%!important;
+    }
+  }
+  @media(width < 550px){
     .aboutTop img {
         width: 100%!important;
+        height: auto!important;
     }
     .about ul {
         margin-left: 0px!important;
@@ -24,6 +30,9 @@
         .stepOption img, .stepSelected, .ToBestepSelected {
             width: 1.7rem!important;
             height: 1.7rem!important;
+        }
+        .aboutTop p {
+            width: auto!important;
         }
         .stepOption span {
             font-size: 12px!important;
@@ -108,6 +117,9 @@
   @media(width < 605px){
     .productImage img {
         width: 100%!important;
+    }
+    .productImage {
+        margin: 10px 0px!important;
     }
     .stepOption a{
         display: flex!important;
