@@ -12,9 +12,23 @@ import header from '../../dataTxt/header'
 
 function Header({setALang, lang}) {
   const [current, setcurrent] = useState(1)
+  const [showAnimation, setShowAnimation] = useState(true)
   const ATag = useRef(null)
+  const scrollRef = useRef(null)
 
 
+
+  useEffect(() => {
+      
+      function ev(){
+        setShowAnimation(false)
+      }
+      scrollRef.current.addEventListener('scroll',ev)
+      if(!showAnimation){
+        scrollRef.current.removeEventListener('scroll',ev)
+      }
+      console.log(scrollRef)
+  }, [scrollRef])
   function callBackward() {
     if (current > 1) {
       setcurrent(current - 1)
@@ -39,13 +53,13 @@ function Header({setALang, lang}) {
           </ul>
         </nav>
 
-        <nav className='slider responsive-header-nav'>
+        <nav className={`slider responsive-header-nav  ${showAnimation?' animation': ''}` }>
           
-        <span className='controlSlider' onClick={() => callBackward()} >
+        {/* <span className='controlSlider' onClick={() => callBackward()} >
           <img src={arrowRight} alt='move left arrow icon' style={{transform: 'rotate(180deg)'}}/>
-          </span>
-        <HeaderResponsive current={current} ATag={ATag} />
-        <span className='controlSlider' onClick={() => callFoward()}><img src={arrowRight} alt='move right arrow icon'/></span>
+          </span> */}
+        <HeaderResponsive current={current} ATag={ATag} scrollRef={scrollRef} />
+        {/* <span className='controlSlider' onClick={() => callFoward()}><img src={arrowRight} alt='move right arrow icon'/></span> */}
         </nav>
 
       </header>
@@ -84,8 +98,8 @@ function ItemComponent({ url, txt, icon }) {
   )
 }
 
-function HeaderResponsive({ current, ATag }) {
-  return (<ul className="slides">
+function HeaderResponsive({ current, ATag, scrollRef }) {
+  return (<ul className="slides" ref={scrollRef}>
     <li id="slide-1" className='nav-headerItem'>
 
     <FontAwesomeIcon icon={faHouse} />

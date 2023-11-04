@@ -24,12 +24,12 @@ export default StepsOptions
 function Step({ txt, icon, url}){
   return(<>
   <li className='stepOption'>
-  <Link to={url}>
+  <span >
 
     <FontAwesomeIcon icon={icon}>
     </FontAwesomeIcon>
     <span>{txt}</span>
-  </Link>
+  </span>
   </li>
   
   </>)

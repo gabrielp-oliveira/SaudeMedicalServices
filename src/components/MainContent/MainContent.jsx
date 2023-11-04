@@ -8,7 +8,7 @@ function MainContent({lang}) {
   return (
     <main className='mainContent'>
       <Routes>
-        <Route path='/' element={<MainPage lang={lang}/>}></Route>
+        <Route path='/' exact element={<MainPage lang={lang}/>}></Route>
         <Route path='about' element={<About lang={lang}/>}></Route>
         <Route path='contact' element={<Contact lang={lang}/>}></Route>
       </Routes>
